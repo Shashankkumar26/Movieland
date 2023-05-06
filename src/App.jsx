@@ -44,7 +44,7 @@ const App = ()=>{
             onKeyPress/>
             </div> 
 
-            {movies.length>0 }?   <div className='container'> {  movies.map(m=> <MovieCard movie={m}/>)}</div> : <div className='empty'><h3> No Movies Available</h3></div>  
+            {movies.length>0 } ?( <div className='container'> {  movies.map(m=> <MovieCard movie={m}/>)}</div>) : <div className='empty'><h3> No Movies Available</h3></div>  
             
           
        </div>
